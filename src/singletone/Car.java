@@ -1,7 +1,14 @@
 package singletone;
 
 public class Car {
-    public static void main(String[] args) {
+    private String carName;
+    private final int serialNum;
 
+    public Car(int serialNum) {
+        this.serialNum = serialNum;
+    }
+
+    public int getCarNum() {
+        return serialNum;
     }
 }
