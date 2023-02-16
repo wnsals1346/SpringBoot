@@ -1,4 +1,4 @@
-package extendClass;
+package extendsClassEx;
 
 public class Customer {
 
@@ -14,7 +14,6 @@ public class Customer {
 
         customerGrade = "SILVER";
         bonusRatio = 0.01;
-        System.out.println("Customer(int, String) 생성자 호출");
     }
 
 
@@ -48,7 +47,7 @@ public class Customer {
 
     public String showCustomerInfo() {
         return customerName + "님의 등급은 " + customerGrade +
-                "이며, 보너스 포인트는" + bonusPoint + "입니다";
+                "이며, 보너스 포인트는" + bonusPoint + "입니다.";
 
     }
 }
