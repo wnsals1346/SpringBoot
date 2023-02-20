@@ -52,7 +52,7 @@ public class MyLinkedList<T> {
         return newNode;
     }
 
-    public MyListNode removeElement(int position, T data) {
+    public MyListNode removeElement(int position) {
         MyListNode<T> removedNode = null;
 
         if(position<0 || position>count) {

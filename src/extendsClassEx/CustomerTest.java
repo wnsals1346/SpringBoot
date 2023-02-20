@@ -15,6 +15,8 @@ public class CustomerTest {
         Customer customerKim = new VIPCustomer(10050, "김유신", 100);
 
         VIPCustomer vCustomer = (VIPCustomer) customerKim; //명시적으로 다운 캐스팅
+        /*VIPCustomer vCustomer2 = (VIPCustomer) customerYul; */
+
         new CustomerTest().test(vCustomer);
 
         customerList.add(customerLee);
@@ -43,6 +45,6 @@ public class CustomerTest {
         System.out.println("down Casting Success");
     }
 
-    // 상위클래스가 위치할 수 있는 곳엔 하위클래스는 가능 역은 불가 (자동으로 업캐스팅됨)
+    // 상위클래스가 위치할 수 있는 곳엔 하위클래스는 가능 (자동으로 업캐스팅됨), 역은 불가 (명시적으로 다운캐스팅 필요)
     // 그래서 현재 모든 고객은 Customer Class의 멤버변수와 메소드만 사용가능하다.
 }
