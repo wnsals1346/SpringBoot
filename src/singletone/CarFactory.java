@@ -7,6 +7,9 @@ public class CarFactory {
     private CarFactory() {
 
     }
+    private CarFactory(int i) {
+
+    }
     public static CarFactory getInstance() {
         return instance;
     }

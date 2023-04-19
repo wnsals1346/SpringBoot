@@ -1,7 +1,5 @@
 package collectionsEx.myLinkedList;
 
-import java.util.ArrayList;
-
 public class MyLinkedList<T> {
     private MyListNode<T> head;
     int count;
